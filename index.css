@@ -1,116 +1,134 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 
 
 *{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
-    max-width:100%;
-    border:1px solid black;
+
+padding:0;
+margin:0;
+max-width:100%;
+
 }
 html{
-    font-size:62.5%;
-  }
+font-size:62.5%;
+}
 body{
-    background-color: whitesmoke;
+background-color: whitesmoke;
 }
 
 
 
 #plan{
-    background-color:#FF764E;
-    width: 3%;
-    text-align: center;
-    display: inline-block;
-    margin-top:10rem;
-    margin-left:38%;
-    margin-right:5%;
-
+background-color:#FF764E;
+width: 3%;
+text-align: center;
+display: inline-block;
+margin-top:10rem;
+margin-left:38%;
+margin-right:5%;
+border-radius: 40%;
+color:white;
+padding-block-start: 1rem;
+padding-block-end:1rem;
+padding-left:3rem;
+padding-right: 3rem;
 }
 #learn{
-    background-color: #5ED3EB;
-    display: inline-block;
-    width: 3%;
-    text-align: center;
-    margin:10rem;
-    margin-left:5%;
+background-color: #5ED3EB;
+display: inline-block;
+width: 3%;
+text-align: center;
+margin:10rem;
+margin-left:5%;
+border-radius:40%;
+color:white;
+padding-block-start: 1rem;
+padding-block-end:1rem;
+padding-left:3rem;
+padding-right: 3rem;
 }
 #involve{
-    background-color:#FFCD69 ;
-    display: inline-block;
-    width: 3%;
-    text-align: center;
-    margin:10rem;
-    margin-left:5%;
+background-color:#FFCD69 ;
+display: inline-block;
+width: 3%;
+height:2rem;
+text-align: center;
+margin:10rem;
+margin-left:5%;
+border-radius:40%;
+color:white;
+padding-block-start: 1rem;
+padding-block-end:1rem;
+padding-left:3rem;
+padding-right: 3rem;
 }
 h1{
-    font-family: 'Chelsea Market', cursive;
+font-family: 'Chelsea Market', cursive;
+margin-left:50rem;
+text-align: center;
+font-size: 8rem;
+}
+h2,h3{
+font-size: 3rem;
 }
 h2,h3,p{
-    font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Mono', monospace;
+margin-left:50rem;
+text-align: center;
 }
+
 .midArea{
-    background-color: #DDB9A3;
-    display: inline-block;
-    text-align:center; 
-    margin-top: 5px;
-    margin-bottom:5px;
-    padding:8px;
+background-color: #DDB9A3;
+display: inline-block;
+text-align:center; 
+margin-top: 5px;
+margin-bottom:5px;
+padding:8px;
+color:white;
+font-size: 3rem;
 }
 .bottomDollar{
-    background-color: #F9E7DC;
+background-color: #F9E7DC;
 }
 #thickFire{
-    font-weight: bold;
+font-weight: bold;
 }
 #parkFee{
-    font-weight: bold;
+font-weight: bold;
+}
+#topPic{
+border-radius:50%;
+height:40rem;
+width:auto;
+}
+#truckPic{
+width: 200px;
+height: 200px; 
+object-fit: cover;
+margin-left:50%;
+}
+#firePic{
+width: 200px;
+height: 200px; 
+object-fit: cover;
+margin-left:50%;
+}
+#bottomMTN{ 
+margin-left:15%;
+
+
+}
+.allButtons:hover{
+transition: 3s;
+background-color:greenyellow;
+}
+
+#fireStory{
+font-size: 2rem;
+margin-right: 29rem;
+}
+#truckStory{
+font-size: 2rem;
+margin-right: 29rem;
 }
